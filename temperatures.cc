@@ -1,9 +1,12 @@
 /*
 *
-*  Program: Temperatures.cc
-*  Name: Zachary Knoblauch
-*  Date: 12/February/2019
-*  Description: User inputs high and low temperature data for each day; the program will compare all data and save teh highest high and the lowest low information. Using sentinel value -100, when the program is terminated, it will display the highest high value and the lowest low value that was given
+  Program: Temperatures.cc
+  Name: Zachary Knoblauch
+  Date: 12/February/2019
+  Description: User inputs high and low temperature data for each day;
+  The program will compare all data and save the highest high and the lowest low information.
+  Using sentinel value -100 will terminate the program.
+  After termination the program will display the highest high value and the lowest low value that was given
 *
 */
 
@@ -18,7 +21,7 @@ int main(){
 double inputHigh = 0;//user inputs high for the day
 double inputLow = 0; //user inputs low for the day
 double highHigh = -1000000; //highest high so far
-//didn't start at 0 because I wanted any value the user unputs to be assigned
+//didn't start at 0 because I wanted any value the user inputs to be assigned
 double lowLow = 1000000; //lowest low so far
 //didn't start at 0 because I wanted any value the user inputs to be assigned
 
